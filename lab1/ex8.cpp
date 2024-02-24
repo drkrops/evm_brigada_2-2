@@ -14,7 +14,7 @@ int main(){
     float Mfs[N]{x1,x1,x1,x1,x1};
 
     PRINT_f(Mfs,float);
-    if(scanf("%f %f %f %f %f", &Mfs[0], &Mfs[1], &Mfs[2], &Mfs[3], &Mfs[4]) == 0)
+    if(scanf("%f %f %f %f %f", &Mfs[0], &Mfs[1], &Mfs[2], &Mfs[3], &Mfs[4]) != 5)
     {
         puts("incorrect input");
     }

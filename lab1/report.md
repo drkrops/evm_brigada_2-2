@@ -184,3 +184,14 @@ Mb in hex:     0xffffffffffffffed 0xffffffffffffffed 0xffffffffffffffed 0xffffff
 Mb in decimal: -19 -19 3 -19 -19 
 Mb in hex:     0xffffffffffffffed 0xffffffffffffffed 0x03 0xffffffffffffffed 0xffffffffffffffed
 ```
+
+## Задание 8
+```bash
+Mfs in decimal: -1.60 -1.60 -1.60 -1.60 -1.60 
+Mfs in exp:     -1.60e+00 -1.60e+00 -1.60e+00 -1.60e+00 -1.60e+00 
+3.0 14.0 15.92 6.535 -2
+
+
+Mfs in decimal: 3.00 14.00 15.92 6.53 -2.00 
+Mfs in exp:     3.00e+00 1.40e+01 1.59e+01 6.53e+00 -2.00e+00 
+```
