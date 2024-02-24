@@ -30,14 +30,14 @@ int main(){
 
 
     PRINT_i(Ms,int16_t);
-    if(!(scanf("%hd", &Ms[2]) == 1))
+    if(scanf("%hd", &Ms[2]) == 0)
     {
         puts("incorrect input");
     }
     PRINT_i(Ms,int16_t);
     printf("\n");
     PRINT_i(Ml,int);
-    if(!(scanf("%d", &Ml[2]) == 1))
+    if(scanf("%d", &Ml[2]) == 0)
     {
         puts("incorrect input");
     }
