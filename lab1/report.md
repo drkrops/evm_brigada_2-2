@@ -195,3 +195,13 @@ Mfs in exp:     -1.60e+00 -1.60e+00 -1.60e+00 -1.60e+00 -1.60e+00
 Mfs in decimal: 3.00 14.00 15.92 6.53 -2.00 
 Mfs in exp:     3.00e+00 1.40e+01 1.59e+01 6.53e+00 -2.00e+00 
 ```
+
+## Задание 0
+```bash
+Введите слово s1: qweqwe
+Введите слово s2 (не более 99 символов): hjshjjh
+Введите строку s3: stroka s probelami
+***qweqwe***
+***hjshjjh***
+***stroka s probelami***
+```
