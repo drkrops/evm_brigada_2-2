@@ -17,13 +17,13 @@
     std::cout << std::endl;
 
 int main(){
-    int8_t xs=0xED;    
-    int8_t Mb[N]{xs,xs,xs,xs,xs};
+    unsigned char xs=0xED;    
+    unsigned char Mb[N]{xs,xs,xs,xs,xs};
 
-    PRINT_i(Mb, int8_t);
+    PRINT_i(Mb, unsigned char);
     if (scanf("%hhx", &Mb[2]) == 0){
         puts("incorect Mb[2]");
     }
-    PRINT_i(Mb, int8_t);
+    PRINT_i(Mb, unsigned char);
     return 0;
 }
