@@ -1,14 +1,17 @@
 #include <stdio.h>
 
-unsigned int round_down(unsigned int x, unsigned int D) {
+unsigned int round_down(unsigned int x, unsigned int D)
+{
     return x & ~(D - 1);
 }
 
-unsigned int round_up(unsigned int x, unsigned int D) {
+unsigned int round_up(unsigned int x, unsigned int D)
+{
     return (x + (D - 1)) & ~(D - 1);
 }
 
-int main() {
+int main()
+{
     unsigned int x = 5;
     unsigned int D = 128;
 

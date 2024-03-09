@@ -14,7 +14,8 @@ int main()
     return 0;
 }
 
-void expanSI(short a, unsigned short b){
+void expanSI(short a, unsigned short b)
+{
     print16(&a);
     print16(&b);
     int a32 = static_cast<int>(a);
