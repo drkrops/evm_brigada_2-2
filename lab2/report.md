@@ -49,10 +49,16 @@ x64
 05 00 00 00 FB FF FF FF 00 71 00 FF 
 00 00 00 00 00 00 14 C0 
 ```
-1: Little-Endian
-2: Little-Endian
+1: Little-Endian\
+2: Little-Endian\
 3: Little-Endian. (-5 = C014000000000000)
 
+ARM (mac M1):
+```bash
+05 00 00 00
+05 00 00 00 FB FF FF FF 00 71 00 FF
+00 00 00 00 00 00 F8 3F
+```
 
 ## Задание 4
 ```bash
