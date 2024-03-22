@@ -60,3 +60,20 @@ Ms[2] = 0xabcd
 Ms[3] = 0xfade
 Ms[4] = 0xfade
 ```
+
+## Задание - 5
+```bash
+Before insertion:
+Ms[0] = fade
+Ms[1] = fade
+Ms[2] = fade
+Ms[3] = fade
+Ms[4] = fade
+
+After insertion:
+Ms[0] = fade
+Ms[1] = fade
+Ms[2] = bb
+Ms[3] = fade
+Ms[4] = fade
+```
