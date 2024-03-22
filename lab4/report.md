@@ -43,3 +43,20 @@ Mq[2] = bba551f1ab1e
 Mq[3] = c1a551f1ab1e
 Mq[4] = c1a551f1ab1e
 ```
+
+## Задание - 4
+```bash
+Before insertion:
+Ms[0] = 0xfade
+Ms[1] = 0xfade
+Ms[2] = 0xfade
+Ms[3] = 0xfade
+Ms[4] = 0xfade
+
+After insertion:
+Ms[0] = 0xfade
+Ms[1] = 0xfade
+Ms[2] = 0xabcd
+Ms[3] = 0xfade
+Ms[4] = 0xfade
+```
