@@ -93,3 +93,14 @@ Mfs[1] = -1.6
 Mfs[2] = 3.14159
 Mfs[3] = -1.6
 ```
+
+## Задание - 8
+```bash
+SSE is available!
+Mfs after insertion:
+Mfs[0] = -1.6
+Mfs[1] = -1.6
+Mfs[2] = 10
+Mfs[3] = -1.6
+Mfs[4] = -1.6
+```
