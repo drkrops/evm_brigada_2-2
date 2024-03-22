@@ -26,3 +26,20 @@ Ms[2] = 0xffff
 Ms[3] = 0xfade
 Ms[4] = 0xfade
 ```
+
+## Задание - 3
+```bash
+Before insertion:
+Mq[0] = c1a551f1ab1e
+Mq[1] = c1a551f1ab1e
+Mq[2] = c1a551f1ab1e
+Mq[3] = c1a551f1ab1e
+Mq[4] = c1a551f1ab1e
+
+After insertion:
+Mq[0] = c1a551f1ab1e
+Mq[1] = c1a551f1ab1e
+Mq[2] = bba551f1ab1e
+Mq[3] = c1a551f1ab1e
+Mq[4] = c1a551f1ab1e
+```
