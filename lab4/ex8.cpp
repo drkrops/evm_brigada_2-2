@@ -17,10 +17,10 @@ bool check_availability_avx_sse() {
 // Функция для вставки значения x в массив Mfs по индексу i
 void insert_value(float* Mfs, size_t i, int x) {
     asm (
-        "vcvtsi2ss %[val], %[xmm0], %[xmm1]\n\t"   // Преобразование целочисленного x в число с плавающей запятой
-        "movss %[xmm1], %[addr]"                  // Запись значения в массив Mfs по адресу
+        "cvtsi2ss %[val], %[xmm1]\n\t"   // Преобразование целочисленного x в число с плавающей запятой
+        "movss %[xmm1], %[addr]"         // Запись значения в массив Mfs по адресу
         : [addr] "+m" (Mfs[i])
-        : [val] "r" (x), [xmm0] "x" (0), [xmm1] "x" (0)
+        : [val] "r" (x), [xmm1] "x" (0)
     );
 }
 
